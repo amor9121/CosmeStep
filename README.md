@@ -1,11 +1,11 @@
 # CosmeStep
 
 [ Website Concept ]
-Type : Makeup Instruction Website
-Purpose：
+1. Type : Makeup Instruction Website
+2. Purpose：
 - Teaching makeup step by step.
 - Provides a sharing platform for beauty blogger.
-Target Audience ：20-40 years old woman.
+3. Target Audience ：20-40 years old woman.
 
  [ Logo Concept ]
 A combination of letter C and S forming a lock shape Logo and using the stacked layers of Logo to show the gradual cosmetic steps.
