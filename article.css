@@ -1,0 +1,480 @@
+h2 {
+    color: #66549D;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 0 20px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    color: #555;
+}
+@media screen and (max-width: 767px) {
+    
+}
+
+
+/*content*/
+
+body {
+    background-image: url(img/write/watercolor01.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.bg {
+    background-image: url(img/write/watercolor02.png);
+    background-repeat: no-repeat;
+}
+
+.wrap {
+    max-width: 960px;
+    background-color: rgba(145, 168, 210, 0.5);
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+.paper {
+    width: 92%;
+    background-color: #fff;
+    box-shadow: 10px 10px 2px #aaa;
+    margin: 20px auto;
+}
+
+.form {
+    width: 90%;
+    margin: auto;
+}
+
+
+/*map*/
+
+.map {
+    padding: 40px 0px 20px;
+}
+
+.map li {
+    display: inline;
+}
+
+.map li+li:before {
+    content: '>';
+    color: #66549D;
+    margin: 0 5px;
+}
+
+
+/*title*/
+
+.title input {
+    width: 70%;
+    /*600px*/
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid #66549D;
+}
+
+@media screen and (max-width: 767px) {
+    .scrollup {
+        opacity: 0;
+    }
+    .title input {
+        width: 100%;
+    }
+}
+
+
+/*info*/
+
+.info {
+    color: #aaa;
+    display: inline-block;
+}
+
+.info p {
+    color: #aaa;
+    display: inline-block;
+}
+
+.info .editor {
+    margin-top: 10px;
+}
+
+.info .editor p+p:before {
+    content: ' | ';
+    margin: 0 10px;
+    color: #aaa;
+}
+
+
+/*basic*/
+
+.basic {
+    margin-top: 20px;
+}
+
+.basic .photoupload {
+    float: left;
+    width: 43%;
+    /*360px;*/
+    height: 270px;
+    border: 1px solid #66549D;
+    text-align: center;
+    margin-right: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.basic img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.basic .tools {
+    float: left;
+    width: 52.08333333%;
+    /*500px;*/
+    height: 270px;
+}
+
+.tools li {
+    width: 100%;
+    /*500px*/
+}
+
+.tools li p {
+    display: inline-block;
+    border-bottom: 1px solid #eee;
+}
+
+.tools #brand {
+    width: 25%;
+    /*120px*/
+    height: 18px;
+    font-size: 15px;
+    margin: 0px 8px 10px 0px;
+}
+
+.tools #tool {
+    width: 65%;
+    /*240px;*/
+    height: 18px;
+    font-size: 15px;
+    margin: 0px 8px 10px 0px;
+}
+
+.tools a {
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .basic .photoupload {
+        width: 100%;
+    }
+    .basic .tools {
+        width: 100%;
+        font-size: 12px;
+        height: 300px;
+    }
+}
+
+
+/*brief*/
+
+.brief {
+    float: left;
+    width: 43%;
+    /*360px*/
+    height: 150px;
+    font-size: 15px;
+    margin-top: 20px
+}
+
+@media screen and (max-width: 767px) {
+    .brief {
+        width: 100%;
+    }
+}
+
+
+/*category*/
+
+.category {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 52.08333333%;
+    /*400px;*/
+}
+
+.category select {
+    width: 50%;
+    height: 35px;
+    font-size: 15px;
+    background-color: #66549d;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .category {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .category select {
+        width: 100%;
+    }
+}
+
+
+/*steps*/
+
+.steps {
+    margin: auto;
+}
+
+.step {
+    padding: 0px 0 20px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.step+.step {
+    margin-top: 20px;
+}
+
+.step .photoupload {
+    width: 240px;
+    height: 180px;
+    border: 1px solid #66549D;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.step .photoupload img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: -30px;
+}
+
+.step .txt {
+    display: inline-block;
+    width: 62%;
+    /*width: 520px;*/
+    height: 100px;
+    margin-left: 30px;
+}
+
+.step .txt span {
+    font-size: 30px;
+}
+
+.step .txt h3 {
+    float: left;
+    height: 30px;
+    font-size: 28px;
+    color: #66549D;
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.step p {
+    width: 100%;
+    /*490px*/
+    height: 120px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.steps .add {
+    width: 75%;
+    /*600px*/
+    height: 35px;
+    line-height: 35px;
+    background-color: #66549D;
+    text-align: center;
+    margin: 20px auto 0px;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .steps .photoupload {
+        width: 100%;
+        left: 0;
+    }
+    .steps .photoupload img {
+        width: 100%;
+        height: auto;
+        top: -15%;
+        left: 0;
+    }
+    .steps .txt {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .steps .add {
+        width: 100%;
+    }
+    .steps .txt h3{
+        width: 100%;
+    }
+}
+
+
+/*reminder*/
+
+.reminder {
+    padding: 20px 100px 0;
+}
+
+.reminder p {
+    width: 600px;
+    height: 100px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .reminder {
+        width: 100%;
+        padding: 0;
+    }
+    .reminder p {
+        width: 100%;
+    }
+    h2 {
+        padding: 20px 0 10px;
+    }
+}
+
+
+/*result*/
+
+.result {
+    margin: 20px 100px 0px;
+    padding-bottom: 10px;
+}
+
+.result iframe {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .result {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .result iframe {
+        width: 100%;
+    }
+}
+
+
+/*msg*/
+
+.msgx {
+    padding: 20px 100px 40px;
+    height: 580px;
+}
+
+.board {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #aaa;
+}
+
+.msgx .userphoto {
+    float: left;
+    width: 12%;
+    height: 0;
+    padding-bottom: 12%;
+    border-radius: 50%;
+    margin: 0 20px;
+    overflow: hidden;
+}
+
+.msgx img {
+    width: 150%;
+}
+
+.msgx textarea {
+    float: left;
+    border: 1px solid #66549D;
+    width: 70%;
+    /*450px*/
+    height: 75px;
+    font-size: 15px;
+    color: #555;
+}
+
+.txt p {
+    margin-top: 0px;
+}
+
+.user {
+    margin: 20px 0 10px;
+}
+
+.user span {
+    border: 1px solid #aaa;
+    padding: 3px;
+    border-radius: 2px;
+    color: #aaa;
+}
+
+.user span a {
+    color: #aaa;
+}
+
+.user span a:hover {
+    color: #66549D;
+}
+
+.usermsg {
+    height: 100px;
+    border-bottom: 1px solid #aaa;
+}
+
+.more {
+    margin: 20px 0;
+}
+
+.msgx span {
+    display: inline;
+    text-align: right;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .msgx {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 620px;
+    }
+    .msgx textarea {
+        /*border: 1px solid #66549D;
+                width: 100%;
+                height: 100px;
+                font-size: 15px;
+                margin-bottom: 50px;
+                color: #555;*/
+    }
+    .msgx .userphoto {}
+    .usermsg .user{
+        padding-top: 5px;
+    }
+    .usermsg .txt{
+        width: 90%;
+        padding-top:5px; 
+        padding-left: 20px;
+
+    }
+}

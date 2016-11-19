@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="content">
+            <!-- logo -->
+            <div class="logo">
+                <a href="cosmestep.html">
+                    <div class="pic">
+                        <img src="img/nav/cs_logo.png" alt="logo">
+                    </div>
+                    <div class="txt">
+                        <h4>Cosme<span>Step<span><span id="ch">妝懂</span></h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="txt2">
+                        <p id="share">[ 美妝分享平台 ]</p>
+                    </div>
+                </a>
+            </div>
+            <!-- search -->
+            <div class="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" name="search" placeholder="搜尋彩妝或作者">
+            </div>
+            <!-- nav -->
+            <div class="nav">
+                <input type="checkbox" name="" id="exploreControl">
+                <label for="exploreControl" class="exploreControlBtn">
+                    <div class="btn explore">
+                        <i class="fa fa-compass" aria-hidden="true"></i> 探索彩妝
+                    </div>
+                </label>
+                <!-- Dropdown -->
+                <div class="dropdown">
+                    <div class="content">
+                        <ul>
+                            <a href="popmakeup.html">
+                                <li>
+                                    <img src="img/main/foundation.png" alt="found">
+                                    <p>基礎保養</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <img src="img/main/basic.png" alt="basic">
+                                    <p>基礎妝容</p>
+                                </li>
+                            </a>
+                            <a href="popmakeup.html">
+                                <li>
+                                    <img src="img/main/pop.png" alt="pop">
+                                    <p>流行彩妝</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <img src="img/main/holiday.png" alt="holiday">
+                                    <p>節慶主題</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <img src="img/main/national.png" alt="national">
+                                    <p>日韓歐美</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <img src="img/main/wedding.png" alt="wedding">
+                                    <p>婚禮妝容</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <img src="img/main/diy.png" alt="diy">
+                                    <p>彩妝DIY</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <img src="img/main/salon.png" alt="salon">
+                                    <p>美髮美甲</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <img src="img/main/others.png" alt="others">
+                                    <p>&nbsp;&nbsp;&nbsp;其他</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <a href="write.html">
+                    <div class="btn write">
+                        <i class="fa fa-pencil" aria-hidden="true"></i> 寫彩妝
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="btn login" id="btnLogin">
+                        <i class="fa fa-user" aria-hidden="true"></i> 登入註冊
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- header rwd -->
+    <input type="checkbox" name="" id="menuControl">
+    <div class="menuRwd">
+        <label for="menuControl" class="menuControlBtn"><i class="fa fa-bars"></i></label>
+        <!--  <label for="menuControl" class="menuControlBtn2"><i class="fa fa-times"></i></i>
+        </label> -->
+        <ul>
+            <li><a href="popmakeup.html">基礎保養</a></li>
+            <li><a href="#">基礎妝容</a></li>
+            <li><a href="#">流行彩妝</a></li>
+            <li><a href="#">節慶主題</a></li>
+            <li><a href="#">日韓歐美</a></li>
+            <li><a href="#">婚禮妝容</a></li>
+            <li><a href="#">彩妝DIY</a></li>
+            <li><a href="#">美髮美甲</a></li>
+            <li><a href="#">其他</a></li>
+            <li><a href="write.html">寫彩妝</a></li>
+            <li><a href="#">登入註冊</a></li>
+            <li id="search">
+                <i id="mag" class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" name="search" placeholder="搜尋彩妝或作者">
+            </li>
+        </ul>
+    </div>
+    <!-- lightbox -->
+    <div class="lightbox" style="display:none;">
+        <div class="msg">
+            <div class="logo">
+                <img src="img/nav/logo_n.png">
+            </div>
+            <div class="login">
+                <div class="btn fb">
+                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>用facebook帳號登入</a>
+                </div>
+                <div class="btn email">
+                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>用email帳號登入</a>
+                </div>
+                <div class="input">
+                    <input type="text" name="memId" id="memId" placeholder="帳號">
+                    <input type="password" name="memPsw" id="memPsw" placeholder="密碼">
+                </div>
+                <div class="submit">
+                    <input type="submit" name="btnlogin" id="submit" value="Login" action="personal.html">
+                </div>
+                <div class="other">
+                    <ul>
+                        <li>
+                            <a href="#">忘記密碼</a>
+                        </li>
+                        <li>
+                            <a href="#">重寄確認信</a>
+                        </li>
+                        <li>
+                            <a href="#">註冊新帳號</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <a href="#" class="btn-close">X</a>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

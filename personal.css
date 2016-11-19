@@ -1,0 +1,392 @@
+h2 {
+    color: #66549D;
+    font-size: 24px;
+}
+
+h3 {
+    line-height: 20px;
+    font-size: 18px;
+}
+
+
+body {
+    background-color: #66549D;
+    background-image: url(img/bg/2242.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+p {
+    color: #555;
+}
+
+.content {
+    /*background-color:rgba(225,225,225,0.2);*/
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url(img/bg/2243.jpg);
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/*---------------------main---------------------*/
+
+.main {
+    margin: 20px;
+}
+
+
+/*-------------------personal-------------------*/
+
+.personal {
+    width: 100%;
+    height: 280px;
+    margin: 30px 0;
+    border-radius: 2px;
+    background-image: url(img/bg/2027.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130%;
+    background-position: bottom right;
+    position: relative;
+}
+
+.personal:after {
+    content: '';
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(225, 225, 225, 0.3);
+    /*background-color:rgba(0,0,0,0.2); */
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.personal .headphoto {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 56px;
+    float: left;
+    position: relative;
+    z-index: 20;
+    transition: .5s ease;
+}
+
+.personal .headphoto:hover a:before {
+    content: '';
+    left: 5%;
+    top: 5%;
+    border: 1px dashed #fff;
+    width: 90%;
+    height: 0;
+    padding-bottom: 90%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 30;
+    transition: .5s ease;
+}
+
+.personal .headphoto img {
+    width: 135%;
+    /*height: 200px;*/
+}
+
+.personal .account {
+    float: left;
+    top: 40px;
+    left: 31.25%;
+    /*300px*/
+    line-height: 40px;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 20;
+}
+
+.personal ul {
+    display: inline-block;
+}
+
+.personal li {
+    float: left;
+}
+
+.personal li+li:before {
+    content: '|';
+    margin: 0 10px;
+    color: #66549D;
+}
+
+.personal button {
+    width: 110px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 15px;
+    background-color: #66549D;
+    border: 1px solid #66549D;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.personal button:hover {
+    background-color: #D9A2C9;
+    transition: .5s ease;
+    cursor: pointer;
+    border: 1px solid #D9A2C9;
+}
+
+.personal h3 {
+    margin: 5px 0 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .personal {
+        background-position: center;
+        background-attachment: scroll;
+        background-size: 150%;
+        height: 400px;
+    }
+    .personal .headphoto {
+        width: 30%;
+        height: 0;
+        padding-bottom: 30%;
+        left: 20%;
+    }
+    .personal .account {
+        text-align: center;
+        top: 45%;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {}
+
+
+/*---------------------map---------------------*/
+
+.map {
+    padding: 20px 10px 0;
+}
+
+.map li {
+    display: inline;
+}
+
+.map li+li:before {
+    content: '>';
+    color: #66549D;
+}
+
+
+/*---------------------title---------------------*/
+
+.title {
+    width: 100%;
+}
+
+.title li {
+    display: inline-block;
+    width: 12.5%;
+    /*120px;*/
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 0px;
+    border-radius: 2px 2px 0px 0px;
+    color: #fff;
+    transition: .5s ease;
+}
+
+.title a {
+    color: #fff;
+}
+
+.title a:hover {
+    color: #fff;
+}
+
+.title #main {
+    background-color: rgba(102, 84, 157, .7);
+    color: #fff;
+    transition: .5s ease;
+}
+
+.title #collect,
+.title #setting {
+    background-color: #aaa;
+    /*border-color: rgba(102, 84, 157, .7);*/
+}
+
+.title span {
+    display: inline-block;
+    width: 100%;
+    /*120px;*/
+    height: 100%;
+}
+
+.title #collect:hover,
+.title #setting:hover {
+    background-color: rgba(102, 84, 157, .7);
+    transition: .25s ease;
+}
+
+@media screen and (max-width: 767px) {
+    .title li {
+        width: 32.3%;
+    }
+}
+
+
+/*---------------------title---------------------*/
+
+#S1,
+#S2,
+#S3 {
+    width: 100%;
+    /*border: 1px solid #66649D;*/
+    margin: auto;
+    border-radius: 0px 2px 2px 2px;
+    background-color: rgba(102, 84, 157, .7);
+}
+
+#S1,
+#S2,
+#S3 {
+    padding: 40px 0;
+}
+
+#S3 {
+    height: 300px;
+}
+
+#S3 p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 140px;
+    color: #fff;
+}
+@media screen and (max-width: 767px) {
+    #S1,#S2,#S3{
+        border-radius: 0px 0px 2px 2px;
+    }
+}
+
+
+/*---------------------box---------------------*/
+
+.main .box {
+    width: 78%;
+    height: 0;
+    padding-bottom: 22%;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    margin: 10px 10% 0px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.main .box:hover {
+    box-shadow: 0px 0px 2px 4px #ccc;
+}
+
+.main .pic {
+    width: 28%;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    margin: 25px;
+    position: relative;
+}
+
+.main .pic img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 102%;
+}
+
+.main .txt {
+    float: left;
+    width: 60%;
+    margin: 25px 0;
+}
+
+.main .txt p {
+    margin-top: 10px;
+}
+
+.main .txt .info p {
+    display: inline-block;
+    margin: 10px 0;
+    color: #888;
+    font-size: 15px;
+}
+
+.main .txt .info p+p:before {
+    content: '|';
+    color: #66549D;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+#mark {
+    color: #66549D;
+}
+
+.txt .icon {
+    color: #888;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .main .box {
+        margin: auto;
+        width: 90%;
+        height: 360px;
+        margin: 10px 5%;
+    }
+    .main .pic {
+        width: 100%;
+        height: 180px;
+        margin: 0px;
+    }
+    .main .txt {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
+
+
+/*---------------------page---------------------*/
+
+.page ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page li {
+    display: inline-block;
+    margin: 10px 5px;
+}

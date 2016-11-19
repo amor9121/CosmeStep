@@ -1,0 +1,451 @@
+h2 {
+    color: #66549D;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 0 20px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    color: #66549D;
+}
+
+
+/*content*/
+
+body {
+    background-image: url(img/write/watercolor01.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.bg {
+    background-image: url(img/write/watercolor02.png);
+    background-repeat: no-repeat;
+}
+
+.wrap {
+    max-width: 960px;
+    background-color: rgba(145, 168, 210, 0.5);
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+.paper {
+    width: 92%;
+    background-color: #fff;
+    box-shadow: 10px 10px 2px #aaa;
+    margin: 20px auto;
+}
+
+.form {
+    width: 90%;
+    /*864*/
+    margin: auto;
+}
+
+
+/*map*/
+
+.map {
+    padding: 40px 0px 20px;
+}
+
+.map li {
+    display: inline;
+}
+
+.map li+li:before {
+    content: '>';
+    color: #66549D;
+    margin: 0 5px;
+}
+
+
+/*title*/
+
+input {
+    color: #555;
+}
+
+textarea {
+    color: #555;
+}
+
+.title input {
+    width: 70%;
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid #66549D;
+    color: #66549D;
+}
+
+@media screen and (max-width: 767px) {
+    .title input {
+        width: 100%;
+    }
+}
+
+
+/*basic*/
+
+.basic {
+    margin-top: 20px;
+}
+
+.basic .photoupload {
+    float: left;
+    width: 43%;
+    height: 270px;
+    border: 1px solid #66549D;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.basic .photoupload i {
+    font-size: 60px;
+    padding-top: 90px;
+    color: #66549D; 
+}
+
+.basic .photoupload:hover i {
+    color: #D9A2C9;
+    transition: .5s ease;
+}
+
+.basic .photoupload:hover p {
+    color: #D9A2C9;
+    transition: .5s ease;
+}
+
+.basic .tools {
+    float: left;
+    width: 52.08333333%;
+    /*500px*/
+    height: 270px;
+}
+
+.basic .tools i {
+    font-size: 18px;
+    color: #66549D;
+}
+
+.basic .tools i:hover {
+    color: #D9A2C9;
+    transition: .5s ease;
+}
+
+.fa-trash-o {
+    cursor: pointer;
+}
+
+.fa-arrows {
+    cursor: move;
+}
+
+.tools li {
+    width: 100%;
+    /*500px;*/
+}
+
+.tools input {
+    width: 40%;
+    /*180px;*/
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid #66549D;
+    margin: 0px 4px 10px 0px;
+}
+
+.tools .add {
+    background-color: #66549D;
+    width: 100%;
+    /*372px*/
+    height: 35px;
+    margin: 8px 4px 8px 0px;
+    text-align: center;
+    line-height: 35px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.tools .add:hover {
+    background-color: #D9A2C9;
+    transition: .5s ease;
+}
+
+.tools a {
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .basic .photoupload {
+        width: 100%;
+    }
+    .brief {
+        width: 100%;
+    }
+    .basic .tools {
+        width: 100%;
+    }
+}
+
+
+/*brief*/
+
+.brief {
+    float: left;
+    width: 43%;
+}
+
+.brief textarea {
+    border: 1px solid #66549D;
+    width: 100%;
+    /*360px;*/
+    height: 100px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .brief {
+        width: 100%;
+    }
+}
+
+
+/*category*/
+
+.category {
+    float: left;
+    margin-left: 30px;
+    width: 52.08333333%;
+}
+
+.category select {
+    width: 50%;
+    height: 35px;
+    font-size: 15px;
+    background-color: #66549d;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .category {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .category select {
+        width: 100%;
+    }
+}
+
+
+/*steps*/
+
+.steps {
+    margin: auto;
+}
+
+.step {
+    padding: 0px 0 20px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.step+.step {
+    margin-top: 20px;
+}
+
+.step .photoupload {
+    width: 240px;
+    height: 180px;
+    border: 1px solid #66549D;
+    text-align: center;
+    float: left;
+}
+
+.step .photoupload:hover i {
+    color: #D9A2C9;
+    transition: .5s ease;
+}
+
+.step .photoupload:hover p {
+    color: #D9A2C9;
+    transition: .5s ease;
+}
+
+.step .txt {
+    display: inline-block;
+    width: 62%;
+    /*520px;*/
+    height: 100px;
+    margin-left: 30px;
+}
+
+.step .txt span {
+    font-size: 30px;
+}
+
+.step .txt h3 {
+    float: left;
+    height: 30px;
+    font-size: 18px;
+    color: #66549D;
+    width: 100%;
+    /*500px;*/
+}
+.step .txt i:hover{
+    color:#D9A2C9;
+}
+
+.step .txt i {
+    float: right;
+    margin: 0 4px;
+    margin-top: 10px;
+}
+
+.step .photoupload i {
+    font-size: 60px;
+    padding-top: 60px;
+    color: #66549D;
+
+}
+
+.step textarea {
+    width: 100%;
+    /*width: 490px;*/
+    height: 120px;
+    margin-top: 30px;
+    border: 1px solid #66549D;
+    font-size: 15px;
+}
+
+.steps .add {
+    width: 75%;
+    height: 35px;
+    line-height: 35px;
+    background-color: #66549D;
+    text-align: center;
+    margin: 20px auto 0px;
+    color: #fff;
+}
+
+.steps .add:hover {
+    background-color: #D9A2C9;
+    transition: .5s ease;
+}
+
+@media screen and (max-width: 767px) {
+    .steps .photoupload {
+        width: 100%;
+    }
+    .steps .txt {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .step textarea {
+        margin-top: 10px;
+    }
+    .steps .add {
+        width: 100%;
+    }
+    .step .txt i{
+        margin-top: 15px;
+    }
+}
+
+
+/*reminder*/
+
+.reminder {
+    padding: 20px 100px 0;
+}
+
+.reminder textarea {
+    border: 1px solid #66549D;
+    width: 100%;
+    /*600px;*/
+    height: 100px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .reminder {
+        padding: 20px 0;
+    }
+}
+
+
+/*result*/
+
+.result {
+    margin: 20px 100px 0;
+}
+
+.result .photoupload {
+    width: 100%;
+    height: 300px;
+    border: 1px dashed #66549D;
+    color: #66549D;
+    text-align: center;
+}
+
+.result i {
+    font-size: 80px;
+    margin: 100px auto 0;
+}
+
+.result:hover i {
+    color: #D9A2C9;
+    transition: .5s ease;
+}
+
+.result:hover p {
+    color: #D9A2C9;
+    transition: .5s ease;
+}
+
+.result .edit input {
+    width: 60px;
+    height: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .result {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .result .photoupload {
+        width: 100%;
+    }
+}
+
+
+/*edit*/
+
+.edit {
+    width: 80%;
+    margin: auto;
+    margin-left: 14%;
+}
+
+.edit input {
+    width: 20%;
+    height: 35px;
+    background-color: #66549D;
+    color: #fff;
+    margin: 30px 1%;
+    font-size: 15px;
+    border: 1px solid #66549D;
+    cursor: pointer;
+}
+
+.edit input:hover {
+    background-color: #D9A2C9;
+    border: 1px solid #D9A2C9;
+    transition: .5s ease;
+}
+
+@media screen and (max-width: 767px) {}

@@ -1,0 +1,320 @@
+h2 {
+    color: #66549D;
+    line-height: 20px;
+}
+
+h3 {
+    line-height: 20px;
+    font-size: 18px;
+}
+
+p {
+    color: #555;
+}
+
+.content {
+    background-color: #fff;
+}
+
+body {
+    background-color: #66549D;
+}
+
+
+/*scroll up*/
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+    display: none;
+    text-indent: -9999px;
+    background: url('img/nav/s-up.png') no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*main*/
+
+.main {
+    margin: 30px;
+}
+
+.main .c_left {
+    width: 76.04166667%;
+    /*730px*/
+    float: left;
+}
+
+.main .c_right {
+    width: 23.95833333%;
+    /*230px*/
+    float: right;
+    margin-top: 66px;
+}
+
+
+/*bannar*/
+
+.banner img {
+    width: 70.83333333%;
+    /*680px*/
+    margin: 20px 30px 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .banner img {
+        width: 100%;
+        margin: 0px;
+    }
+    .main .c_left {
+        width: 100%;
+        margin: auto;
+    }
+    .main .c_right {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+/*map*/
+
+.map {
+    padding: 20px 10px;
+}
+
+.map li {
+    display: inline;
+}
+
+.map li+li:before {
+    content: '>';
+    color: #66549D;
+}
+
+
+/*box*/
+
+.c_left .title {
+    width: 96%;
+    /*700px*/
+    border-bottom: 1px solid #66549D;
+    margin: 10px;
+}
+
+.main .box {
+    width: 91.78082192%;
+    /*670px*/
+    height: 0;
+    padding-bottom: 27.39726027%;
+    /*200px*/
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    margin: 10px 20px 10px 30px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.main .box:hover {
+    box-shadow: 0px 0px 2px 4px #ccc;
+}
+
+.main .pic {
+    width: 29.85074627%;
+    /*200px*/
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    margin: 25px;
+    position: relative;
+}
+
+.main .pic img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 102%;
+}
+
+.main .txt {
+    float: left;
+    width: 59.70149254%;
+    /*400px*/
+    margin: 25px 0;
+}
+
+.main .txt p {
+    margin-top: 10px;
+}
+
+.main .txt .info p {
+    display: inline-block;
+    margin: 10px 0;
+    color: #888;
+    font-size: 15px;
+}
+
+.main .txt .info p+p:before {
+    content: '|';
+    color: #66549D;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+#mark {
+    color: #66549D;
+}
+
+.txt .icon {
+    color: #888;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .main .box {
+        margin: auto;
+        height: 340px;
+        margin-bottom: 10px;
+        margin-left: 4%;
+    }
+    .main .pic {
+        width: 100%;
+        height: 180px;
+        margin: 0px;
+    }
+    .main .txt {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
+
+
+/*page*/
+
+.page ul {
+    text-align: center;
+}
+
+.page a {
+    color: #fff;
+}
+
+.page li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+
+/*popular*/
+
+.main .popular {
+    width: 100%;
+    height: 1000px;
+    margin: 20px 0;
+}
+
+.popular .hot {
+    width: 78.26086957%;
+    /*180px*/
+    height: 320px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    margin: 20px 10px;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.popular .hot:hover {
+    box-shadow: 0px 0px 2px 4px #ccc;
+}
+
+.popular .hot .pic {
+    /*border: 1px solid #66549D;*/
+    margin: auto;
+    width: 83.33333333%;
+    /*150*/
+    height: 150px;
+    position: absolute;
+    overflow: hidden;
+    left: 15px;
+    top: 15px;
+}
+
+.popular .hot img {
+    width: 100%;
+    position: absolute;
+}
+
+.popular .hot .txt {
+    text-align: center;
+    width: 77.77777778%;
+    /*140px;*/
+    height: 200px;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+
+.popular h3 {
+    color: #66549D;
+    width: 100%;
+}
+
+.popular h3:hover {
+    color: #D9A2C9;
+    width: 100%;
+}
+.popular #date {
+    margin-bottom: 0px;
+}
+
+.popular .icon {
+    margin-bottom: 0px;
+}
+
+.c_right .title {
+    border-bottom: 1px solid #66549D;
+    width: 96%;
+    height: 25px;
+    margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .c_right{
+        padding-top: 40px;
+    }
+    .popular {
+        width: 100%;
+    }
+    .popular .title {
+        width: 100%;
+    }
+    .popular .box .txt {
+        width: 100%;
+    }
+    .popular .hot {
+        width: 90%;
+        margin-left: 4%;
+        margin-bottom: 10px;
+    }
+    .popular .txt {
+        width: 90%;
+    }
+    .popular .hot .pic {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+}
